@@ -26,10 +26,13 @@ jobs:
       run: npm run build
 
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: actions/configure-pages@v4
       with:
-        deploy_key: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./out # Mettez à jour avec le répertoire de build de votre projet
+        static_site_generator: next
+        token: ${{ secrets.GITHUB_TOKEN }}
+        enablement: true
 
     - name: Cleanup
       run: rm -rf out # Supprimez le répertoire de build après le déploiement
+
+  
