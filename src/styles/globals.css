@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  font-family: "Inter", sans-serif;
+}
+.hero_bg {
+  background-image: url("../../public/image/joystick-xbox-360-gamepad-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  background: rgba(33, 32, 32, 0.145); 
+  backdrop-filter: blur(20px); 
+
+  border: 1px solid rgba(204, 24, 24, 0.48); 
+
+  box-shadow:
+    2px 2px 12px rgba(204, 24, 24, 0.48);
+  transition: all 0.3s ease-in-out;
+}
+
+
