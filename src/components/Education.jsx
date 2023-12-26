@@ -15,7 +15,7 @@ const Education = () => {
     },
     {
       title: t("Not yet graduated"),
-      degree: t("BUT Informatique"),
+      degree: t("Bachelor of Computer Science Technology"),
       address: t("University of Artois: IUT of Lens"),
       date: "2021 – 2024",
     },
