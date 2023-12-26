@@ -56,8 +56,8 @@ const Navbar = () => {
         <div className="bg-gray-900 fixed inset-x-0 z-50 py-4">
           <div className="py-4 items-center justify-between lg:justify-evenly flex relative">
             <h1 className="text-white text-3xl font-semibold ml-5 lg:ml-0">
-              {t("CV")}
-              <span className="text-red-500">{t("folio")}</span>
+              {t("Port")}
+              <span className="text-red-500">{t("Folio")}</span>
             </h1>
             <div className="flex items-center gap-10">
               {data?.map((item, index) => {
