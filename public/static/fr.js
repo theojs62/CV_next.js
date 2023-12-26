@@ -1,6 +1,6 @@
 module.exports = {
-  Port: "Porte",
-  Folio: "feuille",
+  Port: "Port",
+  Folio: "Folio",
   Home: "Accueil",
   Skills: "Compétences",
   Education: "Éducation",
@@ -20,7 +20,7 @@ module.exports = {
   "Physical Sciences": "Sciences Physiques",
   "Not yet graduated": "Pas encore diplômé",
   "Bachelor of Computer Science Technology":
-    "Licence de Technologie en Informatique",
+    "BUT en Informatique",
   "University of Artois: IUT of Lens": "Université d'Artois : IUT de Lens",
   "April 2023 – June 2023": "Avril 2023 – Juin 2023",
   "Computer Science Internship": "Stage en Informatique",
